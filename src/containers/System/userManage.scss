@@ -1,0 +1,112 @@
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+.btn-edit {
+  background: transparent;
+  width: 50px;
+  border: none;
+  outline: none;
+  color: orange;
+
+  &:hover {
+    background-color: transparent !important;
+    color: orange;
+  }
+}
+
+.btn-delete {
+  outline: none;
+  width: 50px;
+  border: none;
+  background: transparent;
+  color: red;
+
+  &:hover {
+    background-color: transparent !important;
+    color: red;
+  }
+}
+
+.modal-user-container {
+    .modal-content{
+      .modal-header{
+            button{
+              
+              background-color: transparent !important;
+              color:white;
+              border: none;
+              font-size: 25px;
+            }  
+      }
+    }
+    .modal-user-body {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+      .input-container {
+          display: flex;
+          flex-direction: column;
+          width: 48%;
+          &.max-width-input{
+              width: 100%;
+          }
+          input {
+            border-radius: 3px;
+            height: 30px;
+            outline: none;
+            padding: 0 10px;
+            border: 1px solid grey;
+
+        }
+      }
+    }
+
+}
+/* toast-styles.css */
+
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+.Toastify__toast {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+.Toastify__toast--success {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.Toastify__toast--error {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* Add more styles as needed */
